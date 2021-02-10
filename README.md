@@ -12,4 +12,4 @@ Guia prático para iniciantes
 * `git branch` // gerenciar novas linhas do tempo
 * `git checkout` // manipula as linhas do tempo
 * `git merge` // unir as linhas do tempo
-* `git push` // envia as alterações para o repositório remoto (ithub)
+* `git push` // envia as alterações para o repositório remoto (github)
