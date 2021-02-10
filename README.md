@@ -15,3 +15,5 @@ Guia prático para iniciantes
 * `git push` // envia as alterações para o repositório remoto (github)
 * `git clone` //  clonar um projeto / repositório
 * `git pull` // puxa do repositorio remoto
+
+mostrando o git pull para o marcelo
