@@ -13,3 +13,5 @@ Guia prático para iniciantes
 * `git checkout` // manipula as linhas do tempo
 * `git merge` // unir as linhas do tempo
 * `git push` // envia as alterações para o repositório remoto (github)
+* `git clone` //  clonar um projeto / repositório
+* `git pull` // puxa do repositorio remoto
