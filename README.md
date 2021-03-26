@@ -1,6 +1,6 @@
 # GIT GITHUB
 
-Guia prático para iniciantes
+Guia prático para iniciantes - Aula Rocketseat Mayk Brito - [link](https://www.youtube.com/watch?v=2alg7MQ6_sI)
 
 --------------------
 
@@ -15,7 +15,7 @@ Guia prático para iniciantes
 * `git commit` 
     - adiciona um ponto na linha do tempo
     - git commit -m "mensagem do commit"
-    - git commit -am "mensagem do commit" 
+    - git commit -am "mensagem do commit" -> faz o git add e o commit
 
 * `git log`
     - visualiza os pontos na linha do tempo e as mudanças feitas no projeto
@@ -37,21 +37,29 @@ Guia prático para iniciantes
 
 * `git checkout`
     - manipula as linhas do tempo
-    - muda para uma branhc
+    - muda para uma branch
     - git checkout nome_branch
+    - git checkout -b nome_branch -> cria e muda para uma branch, comando curto
+    - git checkout numero_commit -- arquivo -> volta um arquivo para um determindado momento da linha do tempo ou recupera algo deletado
 
 * `git merge`
     - unir as linhas do tempo/branch
     - git merge nome_branch -> precisa estar na master/main
 
+* `git remote`
+    - git remote add origin link_repositorio -> adiciona um repositorio do github na nossa aplicação
+    - explicação github -> push an existing repository from the command line
+    - git remote -v -> mostra os repositórios remotos
+
 * `git push`
     - envia as alterações para o repositório remoto (github)
+    - git push -u origin master -> na primeira vez é preciso criar a branch master no repositório online (github)
+    - empurra o repositório local para o repositório online
 
 * `git clone`
     - clonar um projeto, repositório
     - git clone link_repositorio
 
 * `git pull`
-    - puxa do repositorio remoto
+    - puxa alterações do repositorio remoto atualizando o repositorio local
 
-[aula](https://www.youtube.com/watch?v=2alg7MQ6_sI) minuto 13
