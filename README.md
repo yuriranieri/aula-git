@@ -20,6 +20,7 @@
     - adiciona um ponto na linha do tempo
     - git commit -m "mensagem do commit"
     - git commit -am "mensagem do commit" -> faz o git add e o commit
+    - git commit --amend -m "mensagem reescrita" -> altera a mensagem do commit anterior
 
 * `git log`
     - visualiza os pontos na linha do tempo e as mudanças feitas no projeto
@@ -48,7 +49,11 @@
 
 * `git merge`
     - unir as linhas do tempo/branch
-    - git merge nome_branch -> precisa estar na master/main
+    - git merge nome_branch 
+
+* `git rebase`
+    - unir as linhas do tempo/branch
+    - git rebase nome_branch 
 
 * `git remote`
     - git remote add origin link_repositorio -> adiciona um repositorio do github na nossa aplicação
