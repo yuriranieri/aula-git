@@ -1,11 +1,11 @@
 # GIT GITHUB
-Guia prático para iniciantes
+## Guia prático para iniciantes:
 
 - Aula [Rocketseat](https://www.youtube.com/channel/UCSfwM5u0Kce6Cce8_S72olg) do Mayk Brito - [link](https://www.youtube.com/watch?v=2alg7MQ6_sI)
 - playlist canal no youtube do [Willian Justen Cursos](https://www.youtube.com/channel/UCa12brLWzCqnxN0KOyjfmJQ) - [link](https://www.youtube.com/playlist?list=PLlAbYrWSYTiPA2iEiQ2PF_A9j__C4hi0A)
 
 --------------------
-#Pincipais comandos
+# Pincipais comandos
 
 * `git init` : 
     - inicia a linha do tempo, repositório
