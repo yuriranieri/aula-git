@@ -1,8 +1,9 @@
 # GIT GITHUB
-## Guia prático para iniciantes:
+## Guia prático para iniciantes, baseados nos vídeos:
 
-- Aula [Rocketseat](https://www.youtube.com/channel/UCSfwM5u0Kce6Cce8_S72olg) com Mayk Brito - [Como usar Git e Github na prática: Guia para iniciantes](https://www.youtube.com/watch?v=2alg7MQ6_sI)
-- playlist canal no youtube do [Willian Justen Cursos](https://www.youtube.com/channel/UCa12brLWzCqnxN0KOyjfmJQ) - [Git e Github para Iniciantes](https://www.youtube.com/playlist?list=PLlAbYrWSYTiPA2iEiQ2PF_A9j__C4hi0A)
+- Aula [Como usar Git e Github na prática: Guia para iniciantes](https://www.youtube.com/watch?v=2alg7MQ6_sI) do canal [Rocketseat](https://www.youtube.com/channel/UCSfwM5u0Kce6Cce8_S72olg) com Mayk Brito 
+- playlist [Git e Github para Iniciantes](https://www.youtube.com/playlist?list=PLlAbYrWSYTiPA2iEiQ2PF_A9j__C4hi0A) do canal no youtube do [Willian Justen Cursos](https://www.youtube.com/channel/UCa12brLWzCqnxN0KOyjfmJQ) - 
+- playlist [Git](https://www.youtube.com/playlist?list=PLQCmSnNFVYnRdgxOC_ufH58NxlmM6VYd1) do canal [Rodrigo Branas](https://www.youtube.com/channel/UCkqOofjb7nl6V8vXrIbGtiQ)
 
 --------------------
 ## Pincipais comandos
@@ -40,10 +41,10 @@
 
 * `git checkout`
     - manipula as linhas do tempo
-    - muda para uma branch
-    - git checkout nome_branch
+    - git checkout nome_branch -> muda para uma branch
     - git checkout -b nome_branch -> cria e muda para uma branch, comando curto
     - git checkout numero_commit -- arquivo -> volta um arquivo para um determindado momento da linha do tempo ou recupera algo deletado
+    - git checkout nome_arquivo -> retorna o arquivo antes de uma edição. Antes de fazer um commit, exemplo alterou o readme, não fez add nem commit, e quer voltar para como ele era antes da alteração
 
 * `git merge`
     - unir as linhas do tempo/branch
@@ -67,8 +68,17 @@
     - puxa alterações do repositorio remoto atualizando o repositorio local
 
 * `git diff`
-    - mostra as alterações entre versões (antes do commit)
+    - mostra as alterações entre versões quando o arquivo está untracked (antes de fazer o git add)
     - git diff --name-only -> Mostra os arquivos que foram alterados
+
+* `git reset`
+    - reseta o repositório para o estado do commit informado 
+    - git reset HEAD <file> -> após um arquivo ser adicionado, porém não commitado, esse comando faz com que o arquivo volte a ser untracked, ou seja, ele remove da staging area
+    - git reset --tipo num_commit
+    - existem 3 tipos soft, mixed(default) e hard 
+    - git reset --soft num_commit -> somente altera a referência da branch principal, exemplo, em um commit foi criado um arquivo se fizermos reset soft para outro commit esse arquivo ainda vai estar na staging area, fica unmodified (existe no git porém não foi alterado, se alterar fica modified)
+    - git reset --mixed num_commit (padrao não precisa informar --mixed) -> além de alterar a referência o mixed, diferentimente do soft, remove da staging area, ou seja, os arquivos ficam untracked
+    - git reset --hard num_commit -> limpa o working directory, por exemplo no soft depois de fazer o reset os arquivos criados ficam unmodified(depois de fazer o git add), no mixed ficam untracked(precisa fazer git add) e no hard os arquivos não existem mais pois o working directory foi limpado
 
 
 
