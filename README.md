@@ -73,7 +73,7 @@
 
 * `git reset`
     - reseta o repositório para o estado do commit informado 
-    - git reset HEAD <file> -> após um arquivo ser adicionado, porém não commitado, esse comando faz com que o arquivo volte a ser untracked, ou seja, ele remove da staging area
+    - git reset HEAD nome_arquivo -> após um arquivo ser adicionado, porém não commitado, esse comando faz com que o arquivo volte a ser untracked, ou seja, ele remove da staging area
     - git reset --tipo num_commit
     - existem 3 tipos soft, mixed(default) e hard 
     - git reset --soft num_commit -> somente altera a referência da branch principal, exemplo, em um commit foi criado um arquivo se fizermos reset soft para outro commit esse arquivo ainda vai estar na staging area, fica unmodified (existe no git porém não foi alterado, se alterar fica modified)
