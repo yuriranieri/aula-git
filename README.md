@@ -36,8 +36,8 @@
 * `git branch` 
     - gerenciar novas linhas do tempo
     - git branch nome_branch -> cria nova branch(ramificação)
-    - git branch -> mostra todas as branchs(ramificações), precisa estar na principal main/master
-    - git branch -D nome_branch -> excluiu a branch infromada 
+    - git branch -> mostra todas as branchs(ramificações) e qual é a branch que está no momento
+    - git branch -D nome_branch -> exclui a branch infromada 
 
 * `git checkout`
     - manipula as linhas do tempo
