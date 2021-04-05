@@ -57,10 +57,10 @@
 
 * `git merge x git rebase`
     - merge gera um novo commit, o que pode complicar o histórico, mas nunca o reescreve
-    - merge basicamente cria um novo commit na branch onde o merge é realizado. Este commit puxa consigo a última referência da branch a partir da qual o merge é realizado. Este commit “especial” é chamado de merge commit
+        - merge basicamente cria um novo commit na branch onde o merge é realizado. Este commit puxa consigo a última referência da branch a partir da qual o merge é realizado. Este commit “especial” é chamado de merge commit
     - rebase deixa o histórico linear e mais simples, mas alguns commits são reescritos
-    - rebase literalmente unifica os branches envolvidos, puxando os commits para frente da branch de destino. É como se ele estivesse “refazendo” a base do branch onde o comando é executado.
-    - regra -> não fazer rebase em branch pública
+        - rebase literalmente unifica os branches envolvidos, puxando os commits para frente da branch de destino. É como se ele estivesse “refazendo” a base do branch onde o comando é executado.
+        - regra -> não fazer rebase em branch pública
 
 * `git remote`
     - git remote add origin link_repositorio -> adiciona um repositorio do github na nossa aplicação
