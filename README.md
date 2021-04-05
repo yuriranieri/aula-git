@@ -5,7 +5,7 @@
 - playlist canal no youtube do [Willian Justen Cursos](https://www.youtube.com/channel/UCa12brLWzCqnxN0KOyjfmJQ) - [link](https://www.youtube.com/playlist?list=PLlAbYrWSYTiPA2iEiQ2PF_A9j__C4hi0A)
 
 --------------------
-# Pincipais comandos
+## Pincipais comandos
 
 * `git init` : 
     - inicia a linha do tempo, repositório
