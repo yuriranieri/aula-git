@@ -24,7 +24,9 @@
 
 * `git log`
     - visualiza os pontos na linha do tempo e as mudanças feitas no projeto
-    - mostra os commits, quem foi o autor e a data do commit 
+    - mostra histórico dos commits, quem foi o autor e a data do commit 
+    - git log --oneline -> mostra em uma linha com menos detalhes
+    - git log --graph -> mostra como um gráfico
 
 * `git status` 
     - informa o estado das alterações do nosso projeto
