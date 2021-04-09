@@ -8,6 +8,14 @@
 --------------------
 ## Pincipais comandos
 
+* ### `git config --global` : 
+    - altera as configurações
+    - git config --global --list -> mostra todas as configurações
+    - git config --global user.name "usuario" -> define o nome do usuário
+    - git config --global user.email "email@email.com" -> altera o email
+    - git config --global --unset user.name -> apaga o nome do usuário
+    - git config --global --unset user.email -> apaga o email
+
 * ### `git init` : 
     - inicia a linha do tempo, repositório
 
