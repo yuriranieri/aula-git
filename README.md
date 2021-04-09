@@ -15,6 +15,7 @@
     - git config --global user.email "email@email.com" -> altera o email
     - git config --global --unset user.name -> apaga o nome do usuário
     - git config --global --unset user.email -> apaga o email
+    - git config --global --edit -> edita o arquivo de configuração
 
 * ### `git init` : 
     - inicia a linha do tempo, repositório
