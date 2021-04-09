@@ -8,14 +8,26 @@
 --------------------
 ## Pincipais comandos
 
-* ### `git config --global` : 
-    - altera as configurações
-    - git config --global --list -> mostra todas as configurações
-    - git config --global user.name "usuario" -> define o nome do usuário
-    - git config --global user.email "email@email.com" -> altera o email
-    - git config --global --unset user.name -> apaga o nome do usuário
-    - git config --global --unset user.email -> apaga o email
-    - git config --global --edit -> edita o arquivo de configuração
+```bash
+# todos os comandos em seguida vem explicação
+git init
+git add .
+git commit -m "mensagem"
+git status
+git log
+git show
+git branch
+git checkout
+git merge
+git rebase
+git remote
+git push
+git clone
+git pull
+git diff
+git reset
+git config
+```
 
 * ### `git init` : 
     - inicia a linha do tempo, repositório
@@ -103,5 +115,13 @@
     - git reset --mixed num_commit (padrao não precisa informar --mixed) -> além de alterar a referência o mixed, diferentimente do soft, remove da staging area, ou seja, os arquivos ficam untracked
     - git reset --hard num_commit -> limpa o working directory, por exemplo no soft depois de fazer o reset os arquivos criados ficam unmodified(depois de fazer o git add), no mixed ficam untracked(precisa fazer git add) e no hard os arquivos não existem mais pois o working directory foi limpado
 
+* ### `git config --global` : 
+    - altera as configurações
+    - git config --global --list -> mostra todas as configurações
+    - git config --global user.name "usuario" -> define o nome do usuário
+    - git config --global user.email "email@email.com" -> altera o email
+    - git config --global --unset user.name -> apaga o nome do usuário
+    - git config --global --unset user.email -> apaga o email
+    - git config --global --edit -> edita o arquivo de configuração
 
 
