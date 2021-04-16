@@ -27,6 +27,7 @@ git pull
 git diff
 git reset
 git config
+git cherry-pick
 ```
 
 * ### `git init` : 
@@ -124,4 +125,9 @@ git config
     - git config --global --unset user.email -> apaga o email
     - git config --global --edit -> edita o arquivo de configuração
 
+
+* ### `git cherry-pick`
+    - git cherry-pick numCommit -> transfere o commit de um branch para outra
+    - Exemplo fiz um commit na branch master/main e não devia, então faço um checkout para a branch certa por exemplo branch develop e dentro da branch executo o comando 
+    - para pegar o has do commit executar o git log e copiar o hash
 
