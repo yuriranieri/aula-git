@@ -132,3 +132,9 @@ git cherry-pick
     - Exemplo fiz um commit na branch master/main e não devia, então faço um checkout para a branch certa, por exemplo, branch develop e dentro da branch executo o comando 
     - para pegar o hash do commit executar o git log e copiar o hash
 
+* ### `git stash`
+    - guarda as alterações que foram feitas
+    - git stash aplly -> aplica as alterações
+
+
+
