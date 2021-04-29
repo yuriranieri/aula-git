@@ -95,6 +95,7 @@ git cherry-pick
 * ### `git push`
     - envia as alterações para o repositório remoto (github)
     - git push -u origin master -> na primeira vez é preciso criar a branch master no repositório online (github)
+    -  git push --set-upstream <remote> <branch> -> cria a branch remotamente 
     - empurra o repositório local para o repositório online
 
 * ### `git clone`
