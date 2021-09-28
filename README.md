@@ -42,7 +42,7 @@ git cherry-pick
     - adiciona um ponto na linha do tempo
     - git commit -m "mensagem do commit"
     - git commit -am "mensagem do commit" -> faz o git add e o commit
-    - git commit --amend -m "mensagem reescrita" -> altera a mensagem do commit anterior
+    - git commit --amend -> adiciona as alterações no último commit (tecnicamente ele exclui o outro commit e cria um novo com todas as alterações)
 
 * ### `git log`
     - visualiza os pontos na linha do tempo e as mudanças feitas no projeto
