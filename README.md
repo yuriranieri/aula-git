@@ -136,6 +136,9 @@ git cherry-pick
 * ### `git stash`
     - guarda as alterações que foram feitas
     - git stash aplly -> aplica as alterações
+    
+* ### `tutorial guia git`
+    - ![Modelo conceitual](https://github.com/yuriranieri/assests/blob/master/gitTutorial.jfif)
 
 
 
